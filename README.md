@@ -38,13 +38,14 @@ Swift • Mac Apps • Snapdragon • Ruby
 <details>
 <summary>Open source I've worked with</summary>
 
-### 🚀 FEAGI Neural Network Project
+### 🚀 FEAGI Connector Project
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=feagi&repo=feagi-connector&theme=default)](https://github.com/feagi/feagi-connector)
 
 **My Impact:** 1,355 commits • 1.5M+ lines • Core package for FEAGI intergration in PIP package
 
 ![Contribution Proof](_static/1m_proof.png)
 
+### 🚀 Gazebo issues
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=gazebosim&repo=gz-sim&theme=default)](https://github.com/gazebosim/gz-sim)
 
 **My Impact:** Multiple issues to contribute to improve Gazebo
