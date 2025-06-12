@@ -1,4 +1,8 @@
-## Hi there 👋
+## 👋👋👋👋👋👋👋👋👋👋👋👋👋👋
+![introduction](_static/introduction.gif)
+
+<a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=kakcalu13&show_icons=true&include_all_commits=true&hide_border=true" alt="kakcalu13's github stats" /></a>
+
 
 <!--
 **Kakcalu13/Kakcalu13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
