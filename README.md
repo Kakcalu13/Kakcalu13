@@ -26,12 +26,12 @@
 
 ### 🌱 Currently Learning:
 - **AI/ML:** LLM Development • Mizo STT/TTS
-- **Mobile:** React • Android Studio • Swifty 
+- **Mobile:** React • Swifty 
 - **Systems:** Rust • Zig • Pony
 - **Build:** CMake
 
 ### 📝 Worked Briefly:
-Swift • Mac Apps • Snapdragon • Ruby
+Swift • Mac Apps • Snapdragon • Ruby • Android Studio • Ruby on Rails
 
 </details>
 
