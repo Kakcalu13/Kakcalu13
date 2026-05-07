@@ -1,127 +1,152 @@
-<!--
-  README_4 — Tech-tree / game-style
--->
+<!-- README_4 — The Kakcalu Times -->
 
 <div align="center">
 
-# 🎮 kakcalu13.tech_tree
-
-`PLAYER:` **kakcalu13** &nbsp;·&nbsp; `CLASS:` maker / roboticist / dad &nbsp;·&nbsp; `XP:` 1.5M+ lines
-
-`HP: ████████████  100/100`  &nbsp;  `MP: ███████████░  shipping daily`
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║     𝕿𝖍𝖊   𝕶𝖆𝖐𝖈𝖆𝖑𝖚   𝕿𝖎𝖒𝖊𝖘                ║
+║                                                                          ║
+║         "all the code that's fit to ship"                                ║
+║                                                                          ║
+║   est. 2020   ·   Mizoram edition   ·   May 7, 2026   ·   vol. VI #128   ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
-<br/>
+---
 
-<div align="center">
+## 🗞️ LOCAL DAD REVIVES IGNITION CITADEL ON M-CHIP
+
+### *"Apple gave up on it. I didn't," sources say*
+
+After Apple Silicon left the popular Ignition Citadel simulator stranded, **Kakcalu13** spent the last year cherry-picking forks, porting OGRE Next to Metal, and writing twelve interlocking repos to make it run natively on M-series Macs.
+
+> "When something you need disappears, you rebuild it." — *the developer, in a recent journal entry*
+
+**Full coverage:** [`mac-gazebodistro`](https://github.com/Kakcalu13/mac-gazebodistro) · [`homebrew-legacy`](https://github.com/Kakcalu13/homebrew-legacy) · [`mac-citadel-gazebo`](https://github.com/Kakcalu13/mac-citadel-gazebo)
+
+![evidence photo](_static/introduction.gif)
+
+---
 
 <table>
-<tr><td colspan="5" align="center"><sub>━━━━━━━━━━━━━━━━━━━━━━━ <b>TIER 1 · FOUNDATIONS</b> ━━━━━━━━━━━━━━━━━━━━━━━</sub></td></tr>
 <tr>
-  <td align="center" width="20%">🔌<br/><b>Raspberry Pi</b><br/><sub>✅ unlocked</sub></td>
-  <td align="center">→</td>
-  <td align="center" width="20%">🤖<br/><b>Arduino</b><br/><sub>✅ unlocked</sub></td>
-  <td align="center">→</td>
-  <td align="center" width="20%">🐍<br/><b>Python</b><br/><sub>✅ professional</sub></td>
-</tr>
-<tr><td colspan="5" align="center"><sub>│</sub></td></tr>
+<td valign="top" width="33%">
 
-<tr><td colspan="5" align="center"><sub>━━━━━━━━━━━━━━━━━━━━━━━━ <b>TIER 2 · SYSTEMS</b> ━━━━━━━━━━━━━━━━━━━━━━━━━</sub></td></tr>
-<tr>
-  <td align="center">🌀<br/><b>ROS 2</b><br/><sub>✅ unlocked</sub></td>
-  <td align="center">→</td>
-  <td align="center">🧪<br/><b>Gazebo</b><br/><sub>✅ unlocked</sub></td>
-  <td align="center">→</td>
-  <td align="center">🐳<br/><b>Docker</b><br/><sub>✅ professional</sub></td>
-</tr>
-<tr>
-  <td align="center">🐧<br/><b>Linux</b><br/><sub>✅ Ubuntu / Kali</sub></td>
-  <td align="center">→</td>
-  <td align="center">🍎<br/><b>macOS</b><br/><sub>✅ Intel + Apple Silicon</sub></td>
-  <td align="center">→</td>
-  <td align="center">🪟<br/><b>Windows</b><br/><sub>✅ XP → 11</sub></td>
-</tr>
-<tr><td colspan="5" align="center"><sub>│</sub></td></tr>
+### 🌍 WORLD
 
-<tr><td colspan="5" align="center"><sub>━━━━━━━━━━━━━━━━━━━━━━━━ <b>TIER 3 · CRAFT</b> ━━━━━━━━━━━━━━━━━━━━━━━━━━</sub></td></tr>
-<tr>
-  <td align="center">⚙️<br/><b>C++</b><br/><sub>✅ advanced</sub></td>
-  <td align="center">→</td>
-  <td align="center">🛠️<br/><b>CMake</b><br/><sub>🔥 active grind</sub></td>
-  <td align="center">→</td>
-  <td align="center">🎨<br/><b>OGRE Next Metal</b><br/><sub>✅ rendering on Mac</sub></td>
-</tr>
-<tr>
-  <td align="center">🎮<br/><b>Godot / GDScript</b><br/><sub>✅ advanced</sub></td>
-  <td align="center">→</td>
-  <td align="center">🧠<br/><b>FEAGI</b><br/><sub>⭐ 1,355 commits</sub></td>
-  <td align="center">→</td>
-  <td align="center">🎙️<br/><b>STT / TTS</b><br/><sub>🔥 Mizo focus</sub></td>
-</tr>
-<tr><td colspan="5" align="center"><sub>│</sub></td></tr>
+**Mizo Language Preservation Effort Reaches Four Repos**
 
-<tr><td colspan="5" align="center"><sub>━━━━━━━━━━━━━━━━━━━━━━━ <b>TIER 4 · QUESTS ACTIVE</b> ━━━━━━━━━━━━━━━━━━━━━━</sub></td></tr>
-<tr>
-  <td colspan="2" align="center">
-    <sub><b>QUEST</b> · 🪶 PRESERVE MIZO</sub><br/>
-    <code>4 repos · in progress</code><br/>
-    <sub>STT · tawng · Mizo-godot-game · Inkhelhna-ho-te</sub>
-  </td>
-  <td></td>
-  <td colspan="2" align="center">
-    <sub><b>QUEST</b> · 🍎 CITADEL ON APPLE SILICON</sub><br/>
-    <code>12 repos · 🔥 active</code><br/>
-    <sub>mac-gazebodistro · homebrew-legacy · mac-gz-*</sub>
-  </td>
-</tr>
-<tr><td colspan="5"></td></tr>
-<tr>
-  <td colspan="2" align="center">
-    <sub><b>QUEST</b> · 🧠 FEAGI NEUROMORPHIC</sub><br/>
-    <code>5 repos · 1.5M lines shipped</code><br/>
-    <sub>feagi-connector · feagi-viser · blender-connector · feagi_game ⭐3</sub>
-  </td>
-  <td></td>
-  <td colspan="2" align="center">
-    <sub><b>QUEST</b> · 👶 GAMES FOR MY KIDS</sub><br/>
-    <code>3 repos · ongoing</code><br/>
-    <sub>Mizo · English · sign — by playing</sub>
-  </td>
-</tr>
-<tr><td colspan="5" align="center"><sub>│</sub></td></tr>
+A custom speech-to-text engine, a private speak/listen app, and two Godot games now form a small but stubborn front against language loss. Family voices reportedly featured in the training set.
 
-<tr><td colspan="5" align="center"><sub>━━━━━━━━━━━━━━━━━━━━━━━━ <b>TIER 5 · ENDGAME</b> ━━━━━━━━━━━━━━━━━━━━━━━━━</sub></td></tr>
-<tr>
-  <td colspan="5" align="center">
-    <sub><code>FINAL BOSS</code></sub><br/>
-    🐉 <b>duhthusam</b> 🐉<br/>
-    <sub>new C++ game engine · 🔒 private build · 🔥 active</sub><br/>
-    <sub>↳ first game shipping on it: <a href="https://github.com/Kakcalu13/Inkhelhna-ho-te">Inkhelhna-ho-te</a></sub>
-  </td>
-</tr>
-<tr><td colspan="5"></td></tr>
+[`mizo_ai_speech_to_text`](https://github.com/Kakcalu13/mizo_ai_speech_to_text)
+[`Mizo-godot-game`](https://github.com/Kakcalu13/Mizo-godot-game)
+[`Inkhelhna-ho-te`](https://github.com/Kakcalu13/Inkhelhna-ho-te)
 
-<tr><td colspan="5" align="center"><sub>━━━━━━━━━━━━━━━━━━━━━━━━━ <b>SKILL TREE</b> ━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub></td></tr>
-<tr>
-  <td align="center">🟦 <b>Learning</b><br/><sub>Rust · Zig · Pony<br/>Swift · React<br/>Android Studio</sub></td>
-  <td></td>
-  <td align="center">🟪 <b>Sensors</b><br/><sub>IMU · LiDAR · cam<br/>mic · pressure · LED<br/>EEG · IR · photoresistor</sub></td>
-  <td></td>
-  <td align="center">🟧 <b>Cloud</b><br/><sub>GCloud · AWS · Azure<br/>Kubernetes · Terraform<br/>Grafana</sub></td>
+</td>
+<td valign="top" width="33%">
+
+### 🔬 TECH
+
+**New C++ Game Engine Enters Alpha**
+
+Codename: *duhthusam*. ECS architecture (archetypes, not sparse sets — sources confirm). Mac-first rendering pipeline. First title slated to ship: *Inkhelhna-ho-te*.
+
+```
+status:  🔒 private build
+target:  one game shipping
+ETA:     "years, probably"
+```
+
+</td>
+<td valign="top" width="33%">
+
+### 🧠 SCIENCE
+
+**Local Engineer Logs 1.5M Lines on Brain-on-Silicon Project**
+
+Verified: 1,355 commits to `feagi/feagi-connector`, the core PIP package for FEAGI integration. Connects to Blender, Godot, ROS 2 robots.
+
+[`feagi-viser`](https://github.com/Kakcalu13/feagi-viser)
+[`blender-connector`](https://github.com/Kakcalu13/blender-connector)
+[`feagi_game ⭐3`](https://github.com/Kakcalu13/feagi_game)
+
+![1.5M proof](_static/1m_proof.png)
+
+</td>
 </tr>
 </table>
 
-</div>
+---
 
-<br/>
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### 👶 FAMILY
+
+**Father Builds Games So Children Can Learn Mizo, English, and Sign by Playing**
+
+Sources close to the project — namely, the children themselves — confirm enthusiastic playtesting. Engine work continues in parallel.
+
+> *"Pick a problem nobody else will solve."*
+
+</td>
+<td valign="top" width="50%">
+
+### 📈 MARKETS
+
+```
+LANG INDEX               YTD
+─────────────────────────────
+Python      ▲ professional
+C++         ▲ advanced
+GDScript    ▲ advanced
+Kotlin      ▲ shipping (tawng)
+Ruby        — homebrew
+Rust        ▲ learning
+Zig · Pony  · early position
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📋 CLASSIFIEDS
+
+```
+┌─ SEEKING ───────────────────────────────────────────────────────────┐
+│  Collaborators on Mizo NLP, Mac Gazebo revival, neuromorphic        │
+│  robotics. Inquire within: github.com/Kakcalu13                     │
+├─ FOR SALE ──────────────────────────────────────────────────────────┤
+│  Nothing. Everything is open source.                                │
+├─ LOST & FOUND ──────────────────────────────────────────────────────┤
+│  Found: 3 stars on feagi_game ⭐⭐⭐. Owner please claim.            │
+├─ HELP WANTED ───────────────────────────────────────────────────────┤
+│  duhthusam needs a renderer engineer. C++ · Metal · masochism.      │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🛠️ MASTHEAD
+
+**Editor-in-chief, lead reporter, typesetter, paperboy:** kakcalu13
+**Bureaus:** Mizoram · the M2 · wherever there's a Raspberry Pi
+**Tip line:** github.com/Kakcalu13
+
+---
 
 <div align="center">
 
-### 📜 SAVE FILE
-
-<a href="https://github.com/Kakcalu13"><img src="https://github-readme-stats.vercel.app/api?username=Kakcalu13&show_icons=true&include_all_commits=true&hide_border=true&theme=midnight-purple" alt="stats"/></a>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Kakcalu13&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="trophies"/>
+```
+─────────────────────  end of front page  ─────────────────────
+       continued in: every commit pushed to main, ever
+```
 
 </div>

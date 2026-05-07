@@ -1,107 +1,59 @@
-<!--
-  README_1 — Animated banner + live cards
--->
+<!-- README_1 — Letter to my kids -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=kakcalu13&fontSize=70&fontAlign=50&fontColor=ffffff&animation=fadeIn&desc=maker%20%C2%B7%20roboticist%20%C2%B7%20dad&descAlign=50&descAlignY=72&descSize=18" width="100%" alt="banner"/>
-
-<a href="https://github.com/Kakcalu13">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=22&duration=2800&pause=600&color=14B8A6&center=true&vCenter=true&width=720&lines=Reviving+Ignition+Citadel+on+Apple+Silicon;Building+a+new+C%2B%2B+game+engine+(duhthusam);Preserving+Mizo+through+code+%26+games;Neuromorphic+robotics+with+FEAGI;Shipping+since+the+Raspberry+Pi+days" alt="typing"/>
-</a>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Kakcalu13&style=for-the-badge&color=14B8A6&label=PROFILE+VIEWS"/>
-  <img src="https://img.shields.io/github/followers/Kakcalu13?style=for-the-badge&color=8B5CF6&labelColor=1F2937&label=FOLLOWERS"/>
-  <img src="https://img.shields.io/github/stars/Kakcalu13?style=for-the-badge&color=F59E0B&labelColor=1F2937&label=STARS"/>
-</p>
+### *a letter*
 
 </div>
 
-<br/>
+> Mizoram &nbsp;·&nbsp; **May 7, 2026**
+>
+> Dear kids,
+>
+> By the time you can read this, you'll already be playing the games I'm making for you. I want you to know what I was working on, because this code is part of what I'm leaving you.
+>
+> ---
+>
+> **First — your mother tongue.**
+>
+> The world is starting to forget Mizo. So I'm teaching computers to hear it ([`mizo_ai_speech_to_text`](https://github.com/Kakcalu13/mizo_ai_speech_to_text)) and to speak it back ([`tawng`](https://github.com/Kakcalu13)). I built a game ([`Mizo-godot-game`](https://github.com/Kakcalu13/Mizo-godot-game)) so you can learn it the way you learn everything — by playing. There's another one too, [`Inkhelhna-ho-te`](https://github.com/Kakcalu13/Inkhelhna-ho-te), simple, just for fun. Your voices may already be in the training set.
+>
+> ---
+>
+> **Second — a stubborn fight.**
+>
+> Apple decided the old Gazebo simulator wouldn't run on their new chips. I disagreed. Twelve repos later it does. ([`mac-gazebodistro`](https://github.com/Kakcalu13/mac-gazebodistro), [`homebrew-legacy`](https://github.com/Kakcalu13/homebrew-legacy), [`mac-citadel-gazebo`](https://github.com/Kakcalu13/mac-citadel-gazebo), and the whole `mac-gz-*` family.) When something you need disappears, you can rebuild it. Remember that.
+>
+> ---
+>
+> **Third — brains-on-silicon.**
+>
+> I help build a thing called FEAGI — software that acts like a brain. 1,355 commits, more than 1.5 million lines, mostly the [feagi-connector](https://github.com/feagi/feagi-connector). It connects to robots, to Blender ([`blender-connector`](https://github.com/Kakcalu13/blender-connector)), to Godot ([`feagi_game`](https://github.com/Kakcalu13/feagi_game) ⭐3). One day you'll show one of these to a friend and not realize how strange it is.
+>
+> ![1.5M lines proof](_static/1m_proof.png)
+>
+> ---
+>
+> **Fourth — the engine.**
+>
+> I'm building a game engine from scratch in C++. It's called [`duhthusam`](https://github.com/Kakcalu13). It's not finished. It may take years. The first game shipping on it is [`Inkhelhna-ho-te`](https://github.com/Kakcalu13/Inkhelhna-ho-te). I want you to see what it looks like when somebody refuses to use someone else's tools.
+>
+> ---
+>
+> If you grow up to be makers too, here's what I learned along the way:
+>
+> - Old hardware is not dead hardware. Raspberry Pi, Arduino, Micro:bit — start there.
+> - Pick a problem nobody else will solve. Mizo. Citadel-on-Mac. That's where the work is.
+> - Ship things. A 3-star repo with someone else using it beats a thousand-star repo with no one.
+>
+> Love,
+>
+> Dad
+>
+> *(github.com/Kakcalu13 — for when you're old enough to fork your father's code)*
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Kakcalu13&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&count_private=true&rank_icon=github" alt="stats"/>
-<img height="180" src="https://streak-stats.demolab.com?user=Kakcalu13&hide_border=true&theme=tokyonight" alt="streak"/>
+![introduction](_static/introduction.gif)
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kakcalu13&hide_border=true&theme=tokyonight&layout=compact&langs_count=10" alt="top langs"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Kakcalu13&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="trophies"/>
-
-</div>
-
-<br/>
-
-<details open>
-<summary><b>🐍 Contribution snake</b></summary>
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kakcalu13/Kakcalu13/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kakcalu13/Kakcalu13/output/github-snake.svg"/>
-  <img alt="snake animation" src="https://raw.githubusercontent.com/Kakcalu13/Kakcalu13/output/github-snake.svg"/>
-</picture>
-</div>
-
-> Needs a one-time GitHub Action setup — I can wire it up if you pick this style.
-
-</details>
-
-<br/>
-
-## 🚀 Pinned
-
-<div align="center">
-
-<a href="https://github.com/Kakcalu13/mizo_ai_speech_to_text">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kakcalu13&repo=mizo_ai_speech_to_text&theme=tokyonight&hide_border=true" alt="mizo_ai_speech_to_text"/>
-</a>
-<a href="https://github.com/Kakcalu13/mac-gazebodistro">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kakcalu13&repo=mac-gazebodistro&theme=tokyonight&hide_border=true" alt="mac-gazebodistro"/>
-</a>
-<a href="https://github.com/Kakcalu13/homebrew-legacy">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kakcalu13&repo=homebrew-legacy&theme=tokyonight&hide_border=true" alt="homebrew-legacy"/>
-</a>
-<a href="https://github.com/Kakcalu13/feagi_game">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kakcalu13&repo=feagi_game&theme=tokyonight&hide_border=true" alt="feagi_game"/>
-</a>
-<a href="https://github.com/Kakcalu13/Mizo-godot-game">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kakcalu13&repo=Mizo-godot-game&theme=tokyonight&hide_border=true" alt="Mizo-godot-game"/>
-</a>
-<a href="https://github.com/Kakcalu13/Inkhelhna-ho-te">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kakcalu13&repo=Inkhelhna-ho-te&theme=tokyonight&hide_border=true" alt="Inkhelhna-ho-te"/>
-</a>
-
-</div>
-
-<br/>
-
-## 🛠️ Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub%20Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
-![ROS](https://img.shields.io/badge/ROS%202-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Gazebo](https://img.shields.io/badge/Gazebo-F58220?style=for-the-badge&logo=gazebo&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
-![Raspberry%20Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%" alt="footer"/>
 </div>
