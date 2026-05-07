@@ -1,152 +1,98 @@
-<!-- README_4 — The Kakcalu Times -->
+<!-- README_4 — Three pillars (symmetric) -->
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                                                                          ║
-║     𝕿𝖍𝖊   𝕶𝖆𝖐𝖈𝖆𝖑𝖚   𝕿𝖎𝖒𝖊𝖘                ║
-║                                                                          ║
-║         "all the code that's fit to ship"                                ║
-║                                                                          ║
-║   est. 2020   ·   Mizoram edition   ·   May 7, 2026   ·   vol. VI #128   ║
-║                                                                          ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+![introduction](_static/introduction.gif)
+
+# Kakcalu13
+### *Roboticist · Open-source maintainer · Mizo language technologist*
+
+I build at the intersection of **robotics simulation**, **neuromorphic computing**, and **language technology** — and I love collaborating. Read every issue. Reply to every email.
 
 </div>
 
 ---
 
-## 🗞️ LOCAL DAD REVIVES IGNITION CITADEL ON M-CHIP
+## Three things I'm building
 
-### *"Apple gave up on it. I didn't," sources say*
-
-After Apple Silicon left the popular Ignition Citadel simulator stranded, **Kakcalu13** spent the last year cherry-picking forks, porting OGRE Next to Metal, and writing twelve interlocking repos to make it run natively on M-series Macs.
-
-> "When something you need disappears, you rebuild it." — *the developer, in a recent journal entry*
-
-**Full coverage:** [`mac-gazebodistro`](https://github.com/Kakcalu13/mac-gazebodistro) · [`homebrew-legacy`](https://github.com/Kakcalu13/homebrew-legacy) · [`mac-citadel-gazebo`](https://github.com/Kakcalu13/mac-citadel-gazebo)
-
-![evidence photo](_static/introduction.gif)
+Three missions, equal weight, each open to collaboration.
 
 ---
 
-<table>
-<tr>
-<td valign="top" width="33%">
+### 🪶 &nbsp; Pillar I — Mizo language technology
 
-### 🌍 WORLD
+> **Why this matters.** &nbsp; Mizo is the language of my wife and our children — a Tibeto-Burman language of Northeast India. I'm a learner. I can write Mizo, but **I cannot yet ask my computer to listen to it: there is no speech-to-text for Mizo.** No Siri, no Translate parity, almost no public datasets. The phrase *"there isn't one yet"* applies to most of the technology I take for granted in English. So I'm building it.
 
-**Mizo Language Preservation Effort Reaches Four Repos**
+**Selected work**
+- [`mizo_ai_speech_to_text`](https://github.com/Kakcalu13/mizo_ai_speech_to_text) — custom STT pipeline, trained on hand-labelled family recordings
+- [`tawng`](https://github.com/Kakcalu13) *(private, in development)* — speak-and-listen mobile app
+- [`Mizo-godot-game`](https://github.com/Kakcalu13/Mizo-godot-game) — Godot game teaching Mizo, English, and sign
+- [`Inkhelhna-ho-te`](https://github.com/Kakcalu13/Inkhelhna-ho-te) — *"let's play"* — a simple game in Mizo
 
-A custom speech-to-text engine, a private speak/listen app, and two Godot games now form a small but stubborn front against language loss. Family voices reportedly featured in the training set.
-
-[`mizo_ai_speech_to_text`](https://github.com/Kakcalu13/mizo_ai_speech_to_text)
-[`Mizo-godot-game`](https://github.com/Kakcalu13/Mizo-godot-game)
-[`Inkhelhna-ho-te`](https://github.com/Kakcalu13/Inkhelhna-ho-te)
-
-</td>
-<td valign="top" width="33%">
-
-### 🔬 TECH
-
-**New C++ Game Engine Enters Alpha**
-
-Codename: *duhthusam*. ECS architecture (archetypes, not sparse sets — sources confirm). Mac-first rendering pipeline. First title slated to ship: *Inkhelhna-ho-te*.
-
-```
-status:  🔒 private build
-target:  one game shipping
-ETA:     "years, probably"
-```
-
-</td>
-<td valign="top" width="33%">
-
-### 🧠 SCIENCE
-
-**Local Engineer Logs 1.5M Lines on Brain-on-Silicon Project**
-
-Verified: 1,355 commits to `feagi/feagi-connector`, the core PIP package for FEAGI integration. Connects to Blender, Godot, ROS 2 robots.
-
-[`feagi-viser`](https://github.com/Kakcalu13/feagi-viser)
-[`blender-connector`](https://github.com/Kakcalu13/blender-connector)
-[`feagi_game ⭐3`](https://github.com/Kakcalu13/feagi_game)
-
-![1.5M proof](_static/1m_proof.png)
-
-</td>
-</tr>
-</table>
+**How you can help**
+&nbsp;&nbsp;&nbsp;**▸** &nbsp; You work on low-resource NLP, speech, or language preservation? **Please reach out.** This is the work I most want collaborators on.
 
 ---
 
-<table>
-<tr>
-<td valign="top" width="50%">
+### 🍎 &nbsp; Pillar II — Reviving Ignition Citadel on Apple Silicon
 
-### 👶 FAMILY
+> **Why this matters.** &nbsp; Apple Silicon left a generation of robotics simulators behind. Ignition Citadel — used widely in research and education — was effectively stranded on Intel macOS. Twelve repositories later, it runs natively on M-series Macs.
 
-**Father Builds Games So Children Can Learn Mizo, English, and Sign by Playing**
+**Selected work**
+- [`mac-gazebodistro`](https://github.com/Kakcalu13/mac-gazebodistro) — vcstool bootstrap, cherry-picked forks, OGRE Next Metal, automated build & link fixes
+- [`homebrew-legacy`](https://github.com/Kakcalu13/homebrew-legacy) — Ruby tap reviving the legacy program for macOS
+- [`mac-citadel-gazebo`](https://github.com/Kakcalu13/mac-citadel-gazebo) — running Gazebo Citadel on M-series
+- [`citadel-bridge`](https://github.com/Kakcalu13/citadel-bridge) — pybind11 bridge to Python
 
-Sources close to the project — namely, the children themselves — confirm enthusiastic playtesting. Engine work continues in parallel.
+Plus the supporting cluster: `mac-gz-rendering` · `mac-gz-transport` · `mac-gz-msgs` · `mac-gz-cmake` · `mac-gz-launch` · `mac-ign-gui3` · `citadel-gazebo-ogre-next`.
 
-> *"Pick a problem nobody else will solve."*
-
-</td>
-<td valign="top" width="50%">
-
-### 📈 MARKETS
-
-```
-LANG INDEX               YTD
-─────────────────────────────
-Python      ▲ professional
-C++         ▲ advanced
-GDScript    ▲ advanced
-Kotlin      ▲ shipping (tawng)
-Ruby        — homebrew
-Rust        ▲ learning
-Zig · Pony  · early position
-```
-
-</td>
-</tr>
-</table>
+**How you can help**
+&nbsp;&nbsp;&nbsp;**▸** &nbsp; You're a roboticist on Apple Silicon? Try the bootstrap, file issues, share your config. The cluster is most useful when more eyes are on it.
 
 ---
 
-### 📋 CLASSIFIEDS
+### 🧠 &nbsp; Pillar III — Neuromorphic robotics with FEAGI
 
-```
-┌─ SEEKING ───────────────────────────────────────────────────────────┐
-│  Collaborators on Mizo NLP, Mac Gazebo revival, neuromorphic        │
-│  robotics. Inquire within: github.com/Kakcalu13                     │
-├─ FOR SALE ──────────────────────────────────────────────────────────┤
-│  Nothing. Everything is open source.                                │
-├─ LOST & FOUND ──────────────────────────────────────────────────────┤
-│  Found: 3 stars on feagi_game ⭐⭐⭐. Owner please claim.            │
-├─ HELP WANTED ───────────────────────────────────────────────────────┤
-│  duhthusam needs a renderer engineer. C++ · Metal · masochism.      │
-└──────────────────────────────────────────────────────────────────────┘
-```
+> **Why this matters.** &nbsp; FEAGI is an open-source brain-on-silicon project. The connector layer — the canonical PIP package that lets FEAGI drive real and virtual bodies — is largely my work, and it's the bridge between neuromorphic computation and the actual robots, simulators, and creative tools we use every day.
+
+**Selected work**
+- [feagi-connector](https://github.com/feagi/feagi-connector) — **1,355 commits · 1.5M+ lines** as core maintainer
+- [`feagi-viser`](https://github.com/Kakcalu13/feagi-viser) — FEAGI ↔ Viser visualization integration
+- [`blender-connector`](https://github.com/Kakcalu13/blender-connector) — neuromorphic control of Blender models
+- [`feagi_game`](https://github.com/Kakcalu13/feagi_game) ⭐3 — mini game using FEAGI · ROS 2 · Gazebo · Godot
+
+<div align="center">
+
+![FEAGI contribution proof](_static/1m_proof.png)
+
+</div>
+
+**How you can help**
+&nbsp;&nbsp;&nbsp;**▸** &nbsp; You want to integrate FEAGI with a new platform, simulator, or robot? I'll help you wire it up.
 
 ---
 
-### 🛠️ MASTHEAD
+## Technical depth
 
-**Editor-in-chief, lead reporter, typesetter, paperboy:** kakcalu13
-**Bureaus:** Mizoram · the M2 · wherever there's a Raspberry Pi
-**Tip line:** github.com/Kakcalu13
+**Languages (daily):** &nbsp; Python · C++ · GDScript · Bash · Kotlin · Ruby
+**Sharpening:** &nbsp; Rust · Zig · Pony · Swift · CMake · React · Android Studio
+**Robotics & simulation:** &nbsp; Gazebo · MuJoCo · Webots · Carla · ROS 2 · OGRE Next · pybind11
+**Hardware:** &nbsp; Raspberry Pi · Arduino · Micro:bit · ESP32 · industrial servos · IMU · LiDAR · EEG
+**DevOps & cloud:** &nbsp; Docker · GitHub Actions · CMake · GCloud · AWS · Azure · Kubernetes · Terraform
+**Operating systems:** &nbsp; Linux · macOS (Intel + Apple Silicon) · Windows (XP → 11)
 
 ---
 
 <div align="center">
 
-```
-─────────────────────  end of front page  ─────────────────────
-       continued in: every commit pushed to main, ever
-```
+📬 &nbsp; **The fastest way to reach me:** open an issue or discussion on any repository at [github.com/Kakcalu13](https://github.com/Kakcalu13).
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Kakcalu13&show_icons=true&include_all_commits=true&hide_border=true" alt="kakcalu13's github stats"/>
+
+<br/>
+
+*Thank you for stopping by — and if you're working on something for your own language or community, please tell me about it.*
 
 </div>

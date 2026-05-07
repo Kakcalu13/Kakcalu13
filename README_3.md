@@ -1,124 +1,91 @@
-<!-- README_3 — Subway transit map -->
+<!-- README_3 — Conversational FAQ -->
 
 <div align="center">
 
-# 🚇 KAKCALU13 TRANSIT AUTHORITY
-### system map · 4 lines in service · est. 2020
+![introduction](_static/introduction.gif)
+
+# Kakcalu13
+### *Roboticist · Open-source maintainer · Mizo language technologist*
+
+A short conversation about who I am and what I'm working on.
 
 </div>
 
-```
-                                                                           ↑
-                                                                           N
-                          ◆ INDUSTRY JCT ◆                              W ←→ E
-                              │                                            S
-                              │
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                              │
-   🟪 FEAGI LINE              │
-   ●━━━━━━━━━━●━━━━━━━━━━━━━━●━━━━━━━━━━━━━●━━━━━━━━━━━━━━●━━━━━━●
-   feagi      viser           blender-      feagi_game ⭐3   agent  feagi(fork)
-   connector                  connector                       ctlr
-   ★ 1.5M LOC                                                         ↘
-                                                                       │
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━
-                                                                       │
-   🟧 CITADEL LINE                                                     │
-   ●━━━━━━●━━━━━━━●━━━━━━━●━━━━━━━●━━━━━━━━━━●━━━━━━━━━━━━━●━━━━━━━━━━●
-   mac-gz  mac-gz  mac-gz  mac-gz  mac-gz     mac-gazebo    mac-     citadel
-   cmake   msgs    rendr   trans   launch     distro 🔥     citadel  bridge
-                                                            gazebo      │
-                                              ◆ HOMEBREW JCT ◆          │
-                                                    │                   │
-                                              homebrew-legacy           │
-                                                    │                   │
-                                              ◆ OGRE JCT ◆              │
-                                                    │                   │
-                                              citadel-gazebo-           │
-                                              ogre-next                 │
-                                                                        ▼
-                                                                     🐍 PYTHON
-                                                                     TERMINAL
+---
 
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### *"So… who are you?"*
 
-   🟦 MIZO LINE                                              ◆ KIDS TERMINUS ◆
-   ●━━━━━━━━━━━●━━━━━━━━━━━━━━━●━━━━━━━━━━━━━━━━━●━━━━━━━━━━━━━━━━━━━━━━━●
-   mizo-ai-    tawng 🔒        Mizo-godot-game    Inkhelhna-ho-te    👶 my kids
-   speech-     (Kotlin)        (GDShader)         (GDScript)        learn Mizo
-   to-text                                                           · English
-                                                                     · sign
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-   🟨 ENGINE LINE                                              ⚠ UNDER CONSTRUCTION
-   ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌●
-   duhthusam 🔒                                       Inkhelhna-ho-te    ?
-   C++ · ECS · Mac-first                              first title shipping
-```
+I'm an engineer who builds at the intersection of **robotics simulation**, **neuromorphic computing**, and **language technology**. I've shipped on Raspberry Pi, ESP32, Apple Silicon, and just about every operating system since Windows XP. But I'm happiest when the work is also a small act of love for my family and community.
 
 ---
 
-### 🗺️ legend
+### *"What are you working on right now?"*
 
-| symbol | meaning |
+Three things, all at once:
+
+🍎 &nbsp; **Reviving Ignition Citadel on Apple Silicon.** Twelve repos in concert — cherry-picked forks, OGRE Next on Metal, build/link patches, pybind11 bridge.
+&nbsp;&nbsp;&nbsp;↳ [`mac-gazebodistro`](https://github.com/Kakcalu13/mac-gazebodistro) · [`homebrew-legacy`](https://github.com/Kakcalu13/homebrew-legacy) · [`mac-citadel-gazebo`](https://github.com/Kakcalu13/mac-citadel-gazebo)
+
+🧠 &nbsp; **Extending FEAGI** outward — the open-source brain-on-silicon project — into Blender, Viser, ROS 2, and Godot.
+&nbsp;&nbsp;&nbsp;↳ [feagi-connector](https://github.com/feagi/feagi-connector) (**1,355 commits · 1.5M+ lines**) · [`feagi-viser`](https://github.com/Kakcalu13/feagi-viser) · [`blender-connector`](https://github.com/Kakcalu13/blender-connector)
+
+🎮 &nbsp; **duhthusam** — a C++ game engine I'm building from first principles, Mac-first, for the small language-rich games I want to ship.
+
+---
+
+### *"Why Mizo? Tell me about that."*
+
+🪶 &nbsp; Mizo is the language of my wife and our children — a Tibeto-Burman language of Northeast India. I'm still a learner. I can write Mizo, but **I cannot yet ask my computer to listen to it: there is no speech-to-text for Mizo.** No Siri, no Translate parity, almost no public datasets. Most modern technology, in Mizo, simply *isn't built yet.*
+
+So I'm building it. Slowly, stubbornly, joyfully:
+
+- **[mizo_ai_speech_to_text](https://github.com/Kakcalu13/mizo_ai_speech_to_text)** — a custom STT pipeline for Mizo.
+- **[tawng](https://github.com/Kakcalu13)** *(in development)* — a mobile speak-and-listen app.
+- **[Mizo-godot-game](https://github.com/Kakcalu13/Mizo-godot-game)** — a Godot game teaching Mizo, English, and sign to my children.
+- **[Inkhelhna-ho-te](https://github.com/Kakcalu13/Inkhelhna-ho-te)** — *"let's play"* — a small game in Mizo, for the joy of it.
+
+This is the work I care about most.
+
+---
+
+### *"What's your stack?"*
+
+| | |
 |---|---|
-| `●` | station in service |
-| `╌╌` | line under construction |
-| `◆` | transfer / interchange |
-| `🔒` | private station |
-| `⭐` | starred by passengers |
-| `🔥` | active service disruption (in a good way) |
+| **Languages, daily** | Python · C++ · GDScript · Bash · Kotlin · Ruby |
+| **Sharpening** | Rust · Zig · Pony · Swift · CMake · React · Android Studio |
+| **Robotics / sim** | Gazebo · MuJoCo · Webots · Carla · ROS 2 · OGRE Next · pybind11 |
+| **Hardware** | Raspberry Pi · Arduino · Micro:bit · ESP32 · IMU · LiDAR · EEG · industrial servos |
+| **DevOps / cloud** | Docker · GitHub Actions · CMake · GCloud · AWS · Azure · Kubernetes · Terraform |
+| **Operating systems** | Linux · macOS (Intel + Apple Silicon) · Windows (XP → 11) |
 
 ---
 
-### 🚉 station directory
+### *"How can I help, or work with you?"*
 
-<table>
-<tr>
-<td valign="top" width="25%">
+Easy — and I really do welcome it. The fastest way to reach me is to **open an issue or discussion** on any of my repositories.
 
-**🟪 FEAGI LINE**
-- [feagi-connector ★](https://github.com/feagi/feagi-connector)
-- [feagi-viser](https://github.com/Kakcalu13/feagi-viser)
-- [blender-connector](https://github.com/Kakcalu13/blender-connector)
-- [feagi_game ⭐3](https://github.com/Kakcalu13/feagi_game)
-- [agent_controller](https://github.com/Kakcalu13)
+I'd especially love to hear from anyone who wants to:
 
-</td>
-<td valign="top" width="25%">
-
-**🟧 CITADEL LINE**
-- [mac-gazebodistro](https://github.com/Kakcalu13/mac-gazebodistro)
-- [homebrew-legacy](https://github.com/Kakcalu13/homebrew-legacy)
-- [mac-citadel-gazebo](https://github.com/Kakcalu13/mac-citadel-gazebo)
-- [citadel-bridge](https://github.com/Kakcalu13/citadel-bridge)
-- [citadel-gazebo-ogre-next](https://github.com/Kakcalu13/citadel-gazebo-ogre-next)
-- mac-gz-* (×7)
-
-</td>
-<td valign="top" width="25%">
-
-**🟦 MIZO LINE**
-- [mizo_ai_speech_to_text](https://github.com/Kakcalu13/mizo_ai_speech_to_text)
-- tawng 🔒
-- [Mizo-godot-game](https://github.com/Kakcalu13/Mizo-godot-game)
-- [Inkhelhna-ho-te](https://github.com/Kakcalu13/Inkhelhna-ho-te)
-
-</td>
-<td valign="top" width="25%">
-
-**🟨 ENGINE LINE**
-- duhthusam 🔒
-- [Inkhelhna-ho-te](https://github.com/Kakcalu13/Inkhelhna-ho-te)
-
-</td>
-</tr>
-</table>
+- Collaborate on **Mizo** or other **low-resource language technology**
+- Compare notes on **Ignition Citadel / Gazebo on Apple Silicon**
+- Talk **FEAGI**, neuromorphic computing, or brain-inspired robotics
+- Build **games and learning tools for children in their own language**
 
 ---
 
-### 📞 transit authority
+### *"Anything else I should see?"*
 
-operator: **kakcalu13** · maker · roboticist · dad
-HQ: github.com/Kakcalu13
-service running since: 2020 · the Raspberry Pi era
+<div align="center">
+
+![FEAGI contribution proof](_static/1m_proof.png)
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Kakcalu13&show_icons=true&include_all_commits=true&hide_border=true" alt="kakcalu13's github stats"/>
+
+<br/>
+
+*Thank you for asking — and for stopping by.*
+
+</div>

@@ -20,13 +20,13 @@ I love collaborating. If anything below resonates, **please open an issue or rea
 
 ---
 
-## 🪶 The mission I care about most: keeping Mizo alive
+## 🪶 The mission I care about most: Mizo language technology
 
-Mizo is my mother tongue. It is a Tibeto-Burman language of Northeast India, and like many languages of the region its presence in the digital world is fragile: no Siri, no Google Translate parity, almost no public datasets, almost no tooling. The phrase *"there isn't one yet"* applies to nearly every piece of technology I take for granted in English.
+Mizo is the language of my wife and our children — a Tibeto-Burman language of Northeast India, spoken by under a million people. I'm still a learner. I can write Mizo, but **I cannot yet ask my computer to listen to it: there is no speech-to-text for Mizo**. No Siri, no Google Translate parity, almost no public datasets, almost no tooling. The phrase *"there isn't one yet"* applies to nearly every piece of technology I take for granted in English.
 
-I am working — slowly, stubbornly, joyfully — to close that gap. One repository at a time, with my own family's voices in the training data:
+So I'm building, slowly and joyfully, the tools my family and our community will need. One repository at a time:
 
-- **[mizo_ai_speech_to_text](https://github.com/Kakcalu13/mizo_ai_speech_to_text)** — A custom speech-to-text pipeline for Mizo, fine-tuned on recordings I gather and label by hand.
+- **[mizo_ai_speech_to_text](https://github.com/Kakcalu13/mizo_ai_speech_to_text)** — A custom speech-to-text pipeline for Mizo, trained on recordings I gather and label by hand.
 - **tawng** *(private, in active development)* — A mobile speak-and-listen app for Mizo speakers and learners alike.
 - **[Mizo-godot-game](https://github.com/Kakcalu13/Mizo-godot-game)** — An educational Godot game that teaches Mizo, English, and sign language to children — beginning with my own.
 - **[Inkhelhna-ho-te](https://github.com/Kakcalu13/Inkhelhna-ho-te)** — A simple game in Mizo, named after the phrase *"let's play."*
